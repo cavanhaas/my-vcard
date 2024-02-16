@@ -1,6 +1,13 @@
 <!DOCTYPE html>
 <html>
 <body>
-<a href="https://raw.githubusercontent.com/cavanhaas/my-vcard/main/Cavan%20Haas.vcf">Open vCard</a>
+<script>
+window.onload = function() {
+  var a = document.createElement('a');
+  a.href = 'https://raw.githubusercontent.com/cavanhaas/my-vcard/main/Cavan%20Haas.vcf';
+  a.download = 'Cavan Haas.vcf';
+  a.click();
+};
+</script>
 </body>
 </html>
